@@ -1,0 +1,722 @@
+       body{   
+              margin:0 ;   
+              padding: 0;
+
+          }
+          
+              /* nav */
+        
+     .navbar{
+              
+              background-color: #FFFFFF;
+          }
+          
+      
+      
+            .Acolor{
+                 color: #4B94D9 !important;
+              font-weight: bold;
+              margin-right: 10px;
+              font-size: 14px;
+                
+          }
+    
+          #logo{
+              
+              
+              color: #666769;
+             font-size: 23px;
+              text-align: left;
+
+          }
+          .nav-link{
+              
+              color: #4B94D9;
+              font-weight: bold;
+              margin-right: 10px;
+              font-size: 14px;
+          }
+          
+       
+          
+          .navbar-brand{
+              
+              color: black;
+              margin-left:95px;
+              margin-right: 5px;  
+    
+          }
+          .navbar-nav{
+              margin-right: 80px;
+          }
+      
+              .nav-link-brand{
+              margin-left:5px;
+              font-size: 13px;
+               font-weight: bold;
+               color:#80B8B9;
+ 
+
+          }
+          #decoration{
+            
+             text-decoration: none;
+             font-size: 12px;
+              padding-top: 6px;
+          }
+          
+          
+          /*  jumbotron  */
+          .jumbotron{
+              
+              background-image: url(cover.jpeg);
+             background-size: cover; 
+             color: white;
+
+
+          }
+        
+         
+          #btn-Learn{
+              
+             border-radius: 50px;
+             background-color: white;
+             margin: 7px;            
+             padding: 15px 35px 15px 35px;
+              color: #46474B;
+
+          }
+            
+          #btn-Download{
+              
+             border-radius: 50px;
+             background-color: #305BE6;
+             margin: 7px;            
+             padding: 15px 35px 15px 35px;
+              color: white;
+
+          }
+          #display-h2{
+              
+              font-size: 35px;
+              font-weight: bold;
+              margin-bottom: 13px;
+              margin-top: 80px;
+              word-spacing: 7px;
+
+          }
+          #display-h3{
+              
+               font-size: 25px;
+              font-weight: bold;
+              margin-bottom: 35px;
+              word-spacing: 4px;
+
+          }
+          
+          
+        /* About Us  */
+          
+          #text-Services{
+              
+              font-size: 15px;
+              text-align: left;
+          }
+          
+          .main-text{
+              position: relative;
+              margin-bottom: 70px;
+              margin-top: 80px;
+              text-align: center;
+          }
+          
+          #text-lead{
+            
+              color: aquamarine;
+          }
+          
+             #text-aboutUs{
+              
+              font-size: 14px;
+              text-align: left;
+          }
+          
+         
+          
+       
+    
+          
+          /*  all text  */
+          
+          .text{
+              position: relative;
+              padding: 30px;
+              margin: 90px;
+             
+          }
+          
+       
+          
+        /*  Team Members  */
+          
+          
+         
+
+          
+          .card-deck{
+              
+           text-align: center;
+           margin-bottom: 150px;
+           margin-left: 50px;
+              
+              
+          }
+          .card{
+             
+              
+              box-shadow: 5px 5px 8px #efeaea;
+
+          }
+          
+           .card2{
+             
+                 box-shadow: 3px 3px 8px #e8d7db;           
+
+          }
+          .socialicon{
+              
+              padding: 10px;
+          }
+        
+          
+          .Team-title{
+              
+              font-weight: bold;
+              margin-bottom: 3px;
+              
+          }
+          .Team-span{
+              
+              font-size: 13px;
+              color: #8A8C8B;
+             font-weight: bold;
+
+          }
+          .Team-p{
+             
+              font-size: 15px;
+              margin-top: 10px;
+              color: #7AB0B4;
+              font-weight: bold;
+              
+          }
+          
+
+          
+         /* testimonials  & Our Services card text*/
+         .card-text{
+                  
+            text-align: center;
+               
+          }
+          
+           @media (max-width: 760px) { 
+          
+           .card-deck{
+              
+              
+               display: block;
+              
+              
+          }
+               
+               .card{
+                   
+                   
+                   margin-bottom: 20px !important;
+               }
+          
+          }
+          
+          
+          
+          /* testimonials */
+      
+          #testimonials{
+              
+             background-color: #EA3E56;
+             background-size: cover;
+              padding-left: 75px;
+              padding-right: 75px;
+            
+          }
+          
+          .testimonials-text{
+              
+              text-align: center;
+              color: aliceblue;
+              padding-top: 80px;
+              
+          }
+          #testimonials-p {
+           
+              color: #FFE2E2;
+              
+          }
+          
+          #Testimonials{
+              
+              padding-bottom: 90px;
+              padding-top: 30px;
+              padding-left: 50px;
+              padding-right: 50px;
+                 
+          }
+          .Testimonials-card{
+              
+              background-color: #FEFEFE;
+              overflow:auto;
+          }
+         
+          .Testimonials-p{
+              
+            text-align: left;
+
+              
+          }
+          .img-Testimonials{    
+       
+              border-radius: 50px;
+              float: left;
+          }
+          
+          .Testimonials-h6{
+             
+              padding-left: 50px;
+              padding-top: 20px;
+              margin-bottom: 0px;
+
+        
+
+          }
+          
+          .Testimonials-span{
+             color: #B6B7B8;
+             margin-top: 0px;
+          }
+          
+          
+           .Testimonials-h6-2{
+             
+              padding-left: 10px;
+              padding-top: 20px;
+              margin-bottom: 0px;
+
+        
+
+          }
+          
+          .Testimonials-span-2{
+           padding-left: 5px;
+
+             color: #B6B7B8;
+             margin-top: 0px;
+          }
+          
+      
+              
+       
+          
+          
+          /*  end testimonials */
+          
+          /* Trusted Brand */
+          .slide-card{
+    
+              float:left;
+              margin-bottom: 60px;
+              padding-left:50px; ;
+              padding-right: 50px;
+              
+          }
+          
+
+          
+          /* all card p */
+          .card-text{
+              padding-left: 20px;
+              padding-right: 20px;
+             
+          }
+ 
+          
+          /* Photo Gallery  */
+          
+          .image{
+              float:left;
+              margin: 0 auto;
+              padding: 0;
+           
+             
+          }
+          
+          
+          
+          
+          /* Team Members Our Services  Photo Gallery Trusted Brand Latest New (body text and head )*/
+          .text{
+              
+           text-align: center;
+           margin-top: 20px;
+           margin-bottom:  20px;
+     
+          }
+          
+          .text-p{
+              
+              color: #6EAAB1;
+              font-weight: bold;
+              font-style: normal;
+          
+          }
+          
+          
+           /* Carousel Brand */
+          .carousel-brand{
+               margin-top: 0 auto;
+               margin-bottom:  0 auto;
+               padding-left: 100px;
+               padding-right:130px;
+              
+
+              
+          }
+          
+          .carousel-brand-img{
+              
+              width: 150px;
+          }
+          
+          
+             
+           @media only screen and (min-width: 300px) and (max-width: 800px) {
+    
+               
+                .brandscrol{
+                      
+                       margin-left: 150px;
+                    
+                  }
+               
+          }
+          /* startGrowing  */
+          
+          
+          .backgraund{
+              
+              
+              background-color: #2F59DE;
+              opacity: 0.8;
+              padding-top: 100px;
+              padding-bottom: 100px;
+              padding-left: 150px;
+          }
+          
+          #startGrowing{
+               color: white;
+              /* width: 1750px; */
+                background-image: url(cover.jpeg);
+
+          }
+       
+       
+          #btn-learn_more{
+               color: white;
+              border: 1px solid white;
+              border-radius: 50px;
+             padding: 15px 35px 15px 35px;
+            
+          }
+          
+          #learn_h6{
+              
+          padding: 8px 35px 8px 35px;
+            
+          }
+          
+           @media (max-width: 760px) { 
+          
+                #startGrowingtext{
+                     
+                     margin-bottom: 55px !important;
+                     margin-right: 30px;
+                      margin-left: 30px;
+
+                 }
+          }
+        
+          
+          /* Latest New  */
+          
+
+  
+         .LatestCard{
+              
+             
+              padding: 1px;
+          
+              
+          }
+          
+
+          
+         .card-LatestNew{
+             
+              padding-top: 20px;
+              padding-left: 30px;
+             padding-right: 30px;
+              text-align: left;
+               
+          }
+          
+       
+       
+            #LatestNew-h6{
+              
+             color: #73A7D6;
+   
+          }
+          
+          
+   
+          
+          #LatestNew-span{
+              
+            color: #73A7D6;
+            font-size: 13px;
+            font-weight: bold;
+              
+
+          }
+            .LatestNew-date{
+             color: #A3A4A7;
+             font-size: 14px;
+             font-weight: bold;
+
+          }
+         .img-name{
+
+          padding-left: 1px;
+                
+          }
+
+            .img{
+            
+              border-radius: 60px;
+            
+                   
+          } 
+          #blog{
+              
+              color: #7A9ACA;
+              border: 1px solid #7A9ACA;
+              background-color: white;
+              border-radius:10px;
+              font-size: 15px;
+              padding: 5px 7px 5px 7px ;
+         
+          }
+      
+          .btnblog{
+              text-align: center;
+              margin-top: 5px;
+              margin-bottom: 50px
+           
+          }
+          
+        
+          
+        
+        
+           /* Subscribe Css */
+          
+          #subscribe-div{
+              
+              background-color: #ECF2FF;
+              padding: 70px;
+            /*  width: 1700px; */
+
+          }
+          #subscribe-p1{
+              
+              
+              font-size: 40px;
+              letter-spacing: 3px;
+              color: #2C333D;
+              
+          }
+          #subscribe-p2{
+         
+           font-weight: bold;
+            color: #90CFD8;
+              
+              
+          }
+          .btn-singup{
+              
+              background-color: #E93F52;
+              color: #FFE4E9;
+              font-size: 15px;
+              width: 100px;
+              height: 40px;
+          }
+             @media (max-width: 760px) { 
+          
+               
+                  #subscribe-p1{
+                      
+                         margin-bottom: 55px !important;
+                        text-align: center;
+
+                  }
+                  #subscribe-p2{
+                      
+                        margin-bottom: 55px !important;
+                        text-align: center;
+
+                  }
+                 .form-inline{
+                     
+                       margin-left: 40px;
+                       text-align: center;
+
+                     
+                 }
+                
+
+          }
+          
+           @media only screen and (min-width: 771px) and (max-width: 1000px) {
+    
+               
+                #subscribe-p2{
+                      
+                        margin-left: 60px;
+                  }
+               
+          }
+          
+              @media only screen and (min-width: 771px) and (max-width: 1000px) {
+    
+               
+                #email{
+                      
+                        padding-bottom: 2px;
+                  }
+               
+               
+          }
+          
+          /* Footer Css */
+
+          
+          
+          
+          #footer{
+              color: white;
+              background-color: #2A1736;
+              background-size: cover;
+              /* width: 1700px;*/
+              padding-top: 80px;
+              padding-bottom: 80px;
+          }
+          
+          #footerForm{
+              
+            padding-left: 70px;  
+            
+          }
+          
+           .btn-footer{
+              
+              background-color: #EDEFEE;
+              color: #545454;
+          }
+          
+          .footerHead{
+              
+              color: #FAFAFC;
+          }        
+
+          #HowToReach{
+              
+              margin-left: 70px;
+              font-size: 15px;
+              color: #E2D7E8;
+              
+          }
+          
+          .footer-label{
+ 
+              font-weight: bold;
+              font-size: 18px;
+              color: #FFFBFF;
+          }
+          
+              @media (max-width: 760px) { 
+          
+               
+                  #footerForm{
+                      
+                    margin-bottom: 55px !important;
+                    margin-right: 30px !important;
+                      
+                  }
+
+          }
+          
+          
+        
+         
+        /* Main Features   */
+          
+          .test {
+             
+               margin-bottom: 80px;
+               text-align: center;
+              
+              
+          }
+          .maintest{
+              padding-bottom: 50px;
+              padding-top: 50px;
+              box-shadow: 5px 5px 8px #efeaea;
+             
+          }
+          
+          .text-Features{
+              padding-top: 50px;
+              padding-bottom: 50px;
+             text-align: center;
+
+          
+          }
+          
+           .text-Features p{
+               
+                color: #6EAAB1;
+              font-weight: bold;
+              font-style: normal;
+
+          
+          }
+          
+            .card-Features-title{
+              margin-bottom: 10px;
+              font-weight: bold;
+              font-size: 15px;
+              text-align: center;
+              
+              
+          }
+
